@@ -25,7 +25,8 @@ body {
 
 /* Hero Section */
 .hero {
-  background: linear-gradient(
+  background:
+    linear-gradient(
       135deg,
       rgba(0, 153, 219, 0.9) 0%,
       rgba(0, 104, 181, 0.9) 50%,
@@ -226,6 +227,23 @@ button .fas {
   overflow: hidden;
   margin: 8px auto;
   position: relative;
+}
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background: #6c63ff;
+  color: white;
+  text-align: center;
+  line-height: 25px;
+  transition: width 0.4s ease;
+}
+
+.welcome-message {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #6c63ff;
+  text-align: center;
+  font-size: 1.1rem;
 }
 
 .progress-bar {
